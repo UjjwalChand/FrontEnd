@@ -1,0 +1,12 @@
+ 3 ways to Including CSS
+    1. Inline CSS -> styling in the same line 
+    2.Internal CSS -> Stylining inside the style tag
+    3.External CSS -> we have to attached a CSS file for styling the web page
+
+    Selectors: when you just want to select some tag.
+    Types of Selectors
+    1. Class Selector
+    2. ID Selector
+    3. Universal Selector
+    4.Tag Selector
+    5.Attribute Selector

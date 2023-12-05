@@ -1,0 +1,44 @@
+/* div {
+    font-size: 48px;
+    background-color: aquamarine;
+} */
+
+.css {
+    background-color: yellow;
+}
+
+.rocky {
+    background-color: green;
+    color: white;
+    padding: 30px;
+}
+
+.ankit {
+    border-radius: 30px;
+}
+
+/* If you want to access the id  */
+#format {
+    background-color: red;
+}
+
+/* Tag selector */
+h2 {
+    color: blue;
+}
+
+p {
+    font-size: 24px;
+}
+
+.primary-heading {
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+div ul li {
+    background-color: blueviolet;
+}
