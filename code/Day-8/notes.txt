@@ -1,0 +1,9 @@
+Relative units
+
+1. percentage-> it will always work with respect of parent
+2. em - > it will always work with respect of parent
+3. rem-> it will always work with respect to root element
+4. vw -> with respect to viewport width
+5. vh-> with respect to viewport height
+
+Link: https://www.w3schools.com/cssref/css_units.php(NOTES)
