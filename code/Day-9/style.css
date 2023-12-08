@@ -1,0 +1,16 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    /* background-color: blue; */
+    background-image: url("./images/sunset-1373171_1280.jpg"), url("./images/mountains-1587287_640.jpg");
+    /* background-image: url("https://www.geekster.in/Logo.svg"); */
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-attachment: fixed;
+    color: white;
+    background-size: 500px, 700px;
+
+    /* background-position: center; */
+    /* transform: translateX(-50%); */
+    /* background-position: bottom; */
+}
