@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- flex-direction -> row -> align-items -> verically -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlexBox</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        border: 2px solid red;
+        width: 1150px;
+        height: 500px;
+        display: flex;
+        margin: 10px;
+        /* flex-direction: column; */
+        /* flex-direction: row; */
+        /* flex-direction: row; */
+        /* justify-content: center;
+           align-items: center; */
+        /* flex-direction: column-reverse; */
+        /* justify-content: end; */
+        /* justify-content: space-between; */
+        /* justify-content: space-around; */
+        /* justify-content: end; */
+        /* align-items: end;
+        justify-content: center; */
+        flex-wrap: wrap;
+        align-content: flex-start;
+      }
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: yellow;
+        text-align: center;
+        /* margin: 10px; */
+      }
+      #box2{
+        /* order: -2;      */
+        /* flex-grow: 2; */
+        /* align-self: center; */
+        
+      }
+      #box3{
+        /* align-self: flex-end; */
+      }
+     
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box" id="box1">Box1</div>
+      <div class="box" id="box2">Box-2</div>
+      <div class="box" id="box3">Box-3</div>
+      <div class="box" id="box4">Box-4</div>
+      <div class="box" id="box5">Box-5</div>
+      
+      <div class="box">Box1</div>
+        <div class="box">Box-2</div>
+        <div class="box">Box-3</div>
+        <div class="box">Box-4</div>
+        <div class="box">Box1</div>
+        <div class="box">Box-2</div>
+        <div class="box">Box-3</div>
+        <div class="box">Box-4</div>
+        <div class="box">Box1</div>
+        <div class="box">Box-2</div>
+        <div class="box">Box-3</div>
+        <div class="box">Box-4</div>
+    </div>
+  </body>
+</html>
