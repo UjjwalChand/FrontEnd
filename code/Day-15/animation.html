@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation in CSS</title>
+    <style>
+      .parent {
+        height: 300px;
+        width: 300px;
+        background-color: green;
+        font-size: 2rem;
+        animation-name: rahul;
+        animation-duration: 3s;
+        animation-delay: 2s;
+        animation-timing-function: ease-out;
+        animation-iteration-count: 15;
+        animation-direction: alternate;
+
+        /* animation-fill-mode: forwards; */
+      }
+      @keyframes rahul {
+        /* from {
+          width: 300px;
+          height: 300px;
+        }
+        to {
+          width: 500px;
+          height: 500px;
+        } */
+        0% {
+          width: 300px;
+          height: 300px;
+        }
+        25% {
+          background-color: yellow;
+        }
+        50% {
+          background-color: aqua;
+        }
+        100% {
+          width: 500px;
+          height: 500px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">Testing</div>
+  </body>
+</html>

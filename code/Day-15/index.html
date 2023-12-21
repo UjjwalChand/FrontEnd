@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation in css</title>
+    <style>
+
+        /* Trasition in CSS */
+      .primary-btn {
+        padding: 20px;
+      }
+      .primary-btn:hover {
+        font-size: 18px;
+        background-color: red;
+        font-weight: bold;
+        transition-duration: 0.5s;
+        /* transition-delay: 1s; */
+        transition-property: all;
+        transition-timing-function: ease-in-out;
+      }
+      /* Transform in CSS */
+      .container{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .trans:hover{
+        border: 2px solid black;
+        background-color: red;
+        height: 100px;
+        width: 100px;
+        /* transform: translateY(-300px); */
+        /* transform: scale(3); */
+        /* transform: skew(45deg); */
+        /* transform: rotate(360deg); */
+        transition-duration: 4s;
+
+        /* https://developer.mozilla.org/en-US/docs/Web/CSS/transform */
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>Learning Animation</h1>
+    <button class="primary-bt">submit</button>
+    <div class="container">
+        <div class="trans">Box</div>
+    </div>
+
+  </body>
+</html>
