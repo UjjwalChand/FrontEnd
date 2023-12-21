@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discussion of Responsive</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <style>
+      .parent {
+        height: 100px;
+        width: 100px;
+        background-color: yellow;
+      }
+      @media (max-width: 420px) {
+        .parent {
+          background-color: teal;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+
+      @media (min-width: 420px) and (max-width: 1150px) {
+        .parent {
+          background-color: rebeccapurple;
+          font-size: 32px;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          color: white;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">Design</div>
+    <p class="animate__animated animate__backInDown">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+      inventore. Consequuntur voluptatibus non enim, porro ad earum perferendis,
+      totam, excepturi esse vitae id et fuga eos eveniet sit adipisci molestias
+      veniam explicabo soluta iure aliquam. Maiores eum asperiores rem,
+      aspernatur esse magnam ipsum aperiam illum itaque sequi inventore minus
+      voluptatem!
+    </p>
+  </body>
+</html>
