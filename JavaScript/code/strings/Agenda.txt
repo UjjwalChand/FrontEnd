@@ -1,0 +1,14 @@
+1. Need of Strings
+
+2. What is Strings
+* Formal defination: Group of characters || a-z, A-z, 0-9 and special characters like #,@,$, etc.
+a. Declaration
+b. Examples
+
+3. String properties
+    a. Escape character
+    b. String concatenation
+        * + opeartor
+        * String literal
+
+4. Methods
